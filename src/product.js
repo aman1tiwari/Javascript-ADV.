@@ -36,12 +36,7 @@ var cart = [];
 
         try {
           cart.forEach((element) => {
-            // var hello;
-            // var a = Empsalary;
-            // var b = (Empsalary*75/100);       
-            // hello = () => {                  
-            //     return (a-b);
-            // }
+            
 
             if (element.Empsalary > 0) {
               var updatedSal = element.Empsalary * 1.1;
