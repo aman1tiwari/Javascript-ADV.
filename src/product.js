@@ -8,8 +8,8 @@ var cart = [];
        
         var Name = document.getElementById("name").value;
         var Salary = document.getElementById("salary").value;
-        // "use strict";
-        // Emp_Salary = 30000;
+         "use strict";
+         Salary = 30000;
        
         if (ID == "" || Name == "" || Salary == "") {
           document.getElementById("error").innerHTML =
@@ -22,7 +22,8 @@ var cart = [];
           Empsalary: `${Salary}`,
         };
         cart.push(Details);
-        // JSON.stringify(cart)
+        this.JSON.stringify(cart)
+         
         // console.log(myJSON)
        
         Display();
