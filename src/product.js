@@ -8,9 +8,10 @@ var cart = [];
        
         var Name = document.getElementById("name").value;
         var Salary = document.getElementById("salary").value;
+        if(Salary<30000){
          "use strict";
          Salary = 30000;
-       
+        }
         if (ID == "" || Name == "" || Salary == "") {
           document.getElementById("error").innerHTML =
             "All fields must be filled.";
